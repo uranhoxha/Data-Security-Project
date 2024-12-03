@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ponjoung Medium, sans-serif;
+  height: 100vh;
+  width: 100%;
+  background: #333;
+  background: -webkit-linear-gradient(132deg, #000000, #181818);
+  background: linear-gradient(132deg, #000000, #181818);
+}
+
+
+.home {
+  color: #f27121;
+  font-size: 23px;
+  padding: 10px;
+  position: absolute;
+  top: 3rem;
+  left: 10%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.home:hover  {
+  color: #cf1512;
+  transform: scale(1.1);
+}
+
+@font-face {
+  font-family: 'Ponjoung Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ponjoung Medium'), url('../Ponjoung-Medium.woff') format('woff');
+}
